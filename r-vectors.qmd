@@ -1,0 +1,45 @@
+---
+title: "r-vectors"
+author: "zachyloo"
+format: html
+editor: visual
+---
+
+## Vectors in R
+
+```{r}
+# Create vector
+marmots <- c("blue", "green", 4, "yellow")
+
+marmots
+```
+
+```{r}
+class(marmots)
+```
+
+```{r}
+# numeric vector
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+
+pika
+```
+
+```{r}
+# check class
+class(pika)
+```
+
+If values should be integers, add L after value
+
+```{r}
+# create integer vector
+bear <- c(20L, 3L, 5L, 18L, 23L)
+
+# check class
+class(bear)
+```
+
+### \* Numbers can be stored in different ways: \*
+
+Floats are numbers with decimals (class numeric). Integers are numbers without decimals (class integer)
