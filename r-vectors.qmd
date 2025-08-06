@@ -43,3 +43,31 @@ class(bear)
 ### \* Numbers can be stored in different ways: \*
 
 Floats are numbers with decimals (class numeric). Integers are numbers without decimals (class integer)
+
+## Vector Math & Dot Product
+
+```{r}
+# create two vectors
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+fox <- c(9.0, 12.5, 5.4, 10.9)
+
+# addition
+ringtail + fox
+```
+
+```{r}
+# subtraction
+fox - ringtail
+```
+
+```{r}
+# scalar multiply
+67 * ringtail
+```
+
+### Special dot product notation
+
+```{r}
+# dot product
+ringtail %*% fox
+```
